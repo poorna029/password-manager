@@ -1,0 +1,10 @@
+.appLogo {
+  width: 150px;
+  height: 40px;
+}
+.total {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  width: 100vw;
+  min-height: 100vh;
+  padding: 10px 5%;
+}

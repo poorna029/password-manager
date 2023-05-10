@@ -1,0 +1,84 @@
+.Input {
+  background-image: linear-gradient(
+    to right,
+    /* #9ba9eb,
+    #c3caea, */ #5763a5,
+    #454f84
+  );
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  border-radius: 10px;
+  height: 50%;
+  align-items: center;
+}
+.passwordManager {
+  width: 400px;
+  height: 330px;
+}
+.Add {
+  background-color: #7683cb;
+  min-width: 35%;
+  padding: 1%;
+  margin: 0.1%;
+  border-radius: 8px;
+  padding-bottom: 20px;
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px auto;
+}
+input {
+  width: 150%;
+  margin: 0px auto;
+  outline: none;
+  border: none;
+  line-height: 35px;
+  height: 25px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  margin-left: 0px;
+}
+.AddHeading {
+  color: white;
+}
+button {
+  cursor: pointer;
+  background-color: #0b69ff;
+  outline: none;
+  border: none;
+  height: 30px;
+  width: 60px;
+  color: white;
+  border-radius: 5px;
+  font-size: 22px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* min-width: 145%; */
+  min-width: 100%;
+  height: 30px;
+  background-color: white;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+.image {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+.hr1 {
+  height: 90%;
+  margin: 5px;
+  padding: 0px;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  max-width: 145%;
+}
